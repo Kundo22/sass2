@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: rgb(17, 17, 17);
+    margin: 60px;
+
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(17, 17, 17);
+
+}
+
+
+
+
+
+
+/* colores */
+
+.bg-white{
+    background-color:white
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+.text-white{
+    color: white;
+}
+
+
+
+.text-light{
+    font-weight: 300;
+}
+.text-bold{
+    font-weight: 600;
+}
+.text-regular{
+    font-weight:400 ;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+
+.bg-bubble{
+    background-image: url(/img/white.jpg);
+    
+}
+
+
+
+/* clases con BEM */
+
+.encabezado{
+
+}
+
+.encabezado__box--white{
+    text-align: center;
+    background-color: white;
+}
+
+.encabezado__img--fluid{
+    width: 100%;
+
+}
+
+
+
+.pie{
+    padding: 30px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie__icon--im{
+    width: 30px;
+}
+
+.pie__titulo--tt{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+/* Flex */
+
+.flex-direction{
+    flex-direction: row;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-flow{
+    flex-flow: row-reverse wrap /* entra wrap y direction en uno */
+}
+.justify-content{
+    justify-content: space-between;
+}
+.align-items{
+    align-items: center;
+}
+.align-content{
+    align-content: center;
+}

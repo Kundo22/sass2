@@ -1,0 +1,37 @@
+ /* Full responsive */
+
+  @media (max-width: 1024px) {
+    header{
+        flex-direction: column;
+    }
+
+    .nav{
+        padding: 10px 0px;
+    }
+    .cuerpo-card{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .videos{
+        grid-template-columns: repeat(2,1fr);
+    }
+ }
+
+ @media (max-width: 700px) {
+    .cuerpo-card{
+        grid-template-columns: repeat (1,1fr);
+    }
+
+    .grid > article{
+        text-align: center;
+    }
+
+    .videos{
+        justify-content: center;
+        margin: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        row-gap: 20px;
+    }
+}
+
